@@ -1,0 +1,42 @@
+body {
+    background-color: #d6ccdd;
+    padding: auto;
+    margin: auto;
+}
+
+header {
+    background-color: #cdace4;
+    padding-bottom: 20px;
+}
+nav {
+    text-align: end;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+h1, h2 {
+    color: rgb(72, 4, 136);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+p {
+    color: #7934c7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #a055f5;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    width: 60px;
+    
+}
