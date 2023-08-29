@@ -11,16 +11,23 @@
     </header>
     <main>
       <section>
-        <form action="#">
-          <label for="cNome">Nome:</label> <br />
-          <input type="text" name="tNome" id="cNome" required /> <br /><br />
+        <form
+          method="get"
+          id="fContato"
+          action="mailto:yasmim.castro2801@gmail.com"
+        >
+          <fieldset>
+            <legend>Identificação:</legend>
+            <label for="cNome">Nome:</label> <br />
+            <input type="text" name="tNome" id="cNome" required /> <br /><br />
 
-          <label for="cSnome">Sobrenome:</label> <br />
-          <input type="text" name="tSnome" id="cSnome" required /> <br /><br />
+            <label for="cSnome">Sobrenome:</label> <br />
+            <input type="text" name="tSnome" id="cSnome" required />
+            <br /><br />
 
-          <label for="cEmail">E-mail:</label> <br />
-          <input type="email" name="tEmail" id="cEmail" required />
-          <br />
+            <label for="cEmail">E-mail:</label> <br />
+            <input type="email" name="tEmail" id="cEmail" required />
+          </fieldset>
 
           <p>Cursos:</p>
           <input type="radio" name="tipo" id="sti" value="Suporte" />
@@ -54,19 +61,19 @@
             <option value="santos">Santos</option>
           </select>
           <br /><br />
-          <input
-            list="cidade"
-            name="tCid"
-            id="cCid"
-            placeholder="Sua Cidade"
-          />
 
+          <label for="tCid">Qual é a sua cidade?</label>
+          <input list="cidade" name="tCid" id="cCid" placeholder="Sua Cidade" />
           <datalist id="cidade">
             <option value="Santos"></option>
             <option value="Campinas"></option>
             <option value="Osasco"></option>
           </datalist>
-
+          <br /><br />
+          <fieldset>
+            <legend>Deixe sua opinião</legend>
+            <textarea name="message" cols="30" rows="10" placeholder="Pode hablar!"></textarea>
+          </fieldset>
           <br /><br />
           <input type="submit" value="Enviar" />
         </form>
