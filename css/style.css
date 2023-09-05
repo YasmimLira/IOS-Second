@@ -1,0 +1,37 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #b2a8bd;
+  color: #144c7c;
+}
+
+.azul {
+  color: blue;
+}
+
+.amarelo {
+  color: yellow;
+}
+
+.rosa {
+  color: pink;
+}
+
+.verde {
+  color: green;
+}
+
+.vermelho {
+  color: red;
+}
+
+footer {
+  background-color: #be91e9;
+}
+/* 
+color: #23606E; }
+color: #FACFCE; }
+color: #008F8C; }
+color: #015958; }
+color: #023535; }
+
+ */
