@@ -1,0 +1,24 @@
+div {
+    margin: 20px;
+}
+
+.c1 {
+    width: 300px;
+    height: 300px;
+    background-color: darkolivegreen;
+    float: right;
+}
+
+.c2 {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    float: right;
+}
+
+.c3 {
+    width: 300px;
+    height: 300px;
+    background-color: darkgreen;
+    float: right;
+}
