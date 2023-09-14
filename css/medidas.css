@@ -1,0 +1,24 @@
+* {
+    font-size: 9px;
+}
+.container {
+    height: 90vh;
+    background-color: silver;
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 2em;
+}
+
+li {
+    font-size: 2rem;
+}

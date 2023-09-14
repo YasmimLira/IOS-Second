@@ -1,0 +1,29 @@
+* {
+    background-color: silver;
+    text-align: justify;
+}
+
+h1, h2{
+    text-align: center;
+    color: darkslategray;
+}
+
+.borderAll {
+    border: solid #126361;
+}
+
+.superior {
+    border-top: solid #126361;
+}
+
+.inferior {
+    border-bottom: solid #126361;
+}
+
+.direita {
+    border-right: solid #126361;
+}
+
+.esquerda {
+    border-left: solid #126361;
+}
