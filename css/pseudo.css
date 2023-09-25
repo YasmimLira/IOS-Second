@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: darkseagreen;
+}
+
+.cabecalho {
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: darkgreen;
+    align-items: center;
+}
+
+.cabecalho-menu {
+    display: flex;
+}
+
+.cabecalho-menu-link {
+    color: #E9DFD6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.cabecalho-menu-link:hover {
+    background-color: #478a47;
+    border-radius: 10px;
+    padding: 10px;
+}
