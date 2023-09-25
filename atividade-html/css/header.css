@@ -1,0 +1,51 @@
+header {
+    width: 100%;
+    height: 15vh;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #E9DFD6;
+    margin: 0 auto;
+}
+
+.cab-imagem {
+    height: 60px;
+    border-radius: 50px;
+}
+.cab-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cab-menu-item {
+    color: #E9DFD6;
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.cab-menu-item:hover{
+    animation: translateY 0.8s infinite alternate;
+}
+
+@keyframes translateY {
+    from {
+        transform: translateY(0) scale(1);
+    }
+    to {
+        transform: translateY(-8px) scale(1.1);
+    }
+}
+
+@media  screen and (max-width: 760px) {
+    .cabecalho {
+        width: 100%;
+        border-bottom: none;
+    }
+    .cab-menu {
+        display: none;
+    }
+}

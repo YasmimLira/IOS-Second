@@ -2,54 +2,60 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yasmim Lira</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/cont-hab.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css"
+    crossorigin="anonymous">
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html">Home |</a>
-        <a href="objetivos.html">Objetivos</a>
-        <a href="projetos.html">Projetos</a>
-        <a href="habilidades.html">Habilidades e Competências |</a>
-        <a href="contato.html">Contato</a>
+    <header class="cabecalho">
+      <img src="../img/code-girl.jpeg" alt="uma menina com computador" class="cab-imagem">
+      <nav class="cab-menu">
+        <a href="index.html" class="cab-menu-item">Home</a>
+        <a href="objetivos.html" class="cab-menu-item">Objetivos</a>
+        <a href="projetos.html" class="cab-menu-item">Projetos</a>
+        <a href="habilidades.html" class="cab-menu-item">Habilidades</a>
       </nav>
     </header>
-    <main>
-      <h1>Habilidades e Objetivos</h1>
-      <section>
-        <h2>Habilidades</h2>
-        <ul>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem, ipsum.</li>
-        </ul>
+    <main class="conteudo">
+      <h1 class="cont-principal-escrita-titulo">Habilidades e Competências</h1>
+      <section class="cont-principal">
+        <h2 class="cont-principal-escrita-subtitulo">Desenvolvimento Web</h2>
+        <ol class="cont-principal-escrita">
+          <li class="cont-principal-escrita-paragrafo">Front-end: Domínio das linguagens HTML, CSS e JavaScript, juntamente com frameworks como React.</li>
+          <li class="cont-principal-escrita-paragrafo">Back-end: Experiência em linguagens como Python, com conhecimento em bancos de dados SQL.</li>
+          <li class="cont-principal-escrita-paragrafo">Controle de Versão: Proficiente em Git, facilitando a colaboração eficaz em equipes de desenvolvimento.</li>
+        </ol>
       </section>
-      <section>
-        <h2>Objetivos</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quis
-          doloribus corrupti nihil officiis saepe porro ipsa omnis perferendis
-          provident, architecto, nesciunt sed placeat quod alias, fuga
-          aspernatur autem dolorum?
-        </p>
+      <section class="cont-principal">
+        <h2 class="cont-principal-escrita-subtitulo">Educação e Ensino</h2>
+        <ol class="cont-principal-escrita">
+          <li class="cont-principal-escrita-paragrafo">Comunicação Clara: Habilidade de explicar conceitos complexos de programação de forma clara e acessível, adaptando a comunicação ao nível de compreensão do aluno.</li>
+          <li class="cont-principal-escrita-paragrafo">Mentoria: Experiência em orientar e apoiar estudantes em suas jornadas de aprendizado.</li>
+        </ol>
+      </section>
+      <section class="cont-principal">
+        <h2 class="cont-principal-escrita-subtitulo">Trabalho em equipe</h2>
+        <ol class="cont-principal-escrita">
+          <li class="cont-principal-escrita-paragrafo">Colaboração: Experiência em trabalhar em equipes multidisciplinares, contribuindo com ideias e soluções para alcançar metas comuns.</li>
+          <li class="cont-principal-escrita-paragrafo">Adaptabilidade: Capacidade de se adaptar a diferentes ambientes de equipe e abordagens de projeto.</li>
+        </ol>
       </section>
     </main>
-    <footer>
-        <small>Yasmim Lira &#169;</small>
+    <footer class="rodape">
+      <div class="rodape-icons">
+        <a href="https://github.com/YasmimLira/" target="_blank" class="github-icon">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+  
+        <a href="https://www.linkedin.com/in/yasmimlira/" target="_blank" class="linkedin-icon">
+          <i class="fab fa-linkedin-in fa-2x"></i>
+        </a>
+      </div>
+      <p class="rodape-escrita">Yasmim Lira Castro &#169;</p>
     </footer>
   </body>
 </html>

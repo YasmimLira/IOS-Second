@@ -1,0 +1,41 @@
+.conteudo {
+    min-height: 70vh;
+}
+
+.cont-principal {   
+    padding: 14px;
+}
+
+.cont-principal-escrita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.cont-principal-escrita-titulo {
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 150%;
+    max-width: 940px;
+    color: #E9DFD6;
+    text-align: center;
+}
+
+.cont-principal-escrita-subtitulo {
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #D9D7D7;
+    text-align: center;
+}
+
+.cont-principal-escrita-paragrafo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #e8e4eb;
+    text-align: justify;
+}

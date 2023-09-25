@@ -1,42 +1,34 @@
-body {
-    background-color: #d6ccdd;
-    padding: auto;
-    margin: auto;
-}
-
-header {
-    background-color: #cdace4;
-    padding-bottom: 20px;
-}
-nav {
-    text-align: end;
-    padding-right: 10px;
-    padding-top: 20px;
-    font-size: 20px;
-}
-h1, h2 {
-    color: rgb(72, 4, 136);
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
-p {
-    color: #7934c7;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-}
-
-a {
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100&family=Sora:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
-    color: #a055f5;
-    
 }
 
-li {
-    list-style-type: none;
+body {
+    font-size: 100%;
+    background-color: #6756A6;
 }
 
-img {
-    width: 60px;
-    
+.rodape {
+    padding: 25px 0;
+    border-top: 0.4px solid #E9DFD6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #360A73;
 }
+
+.rodape .rodape-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.rodape-escrita {
+    text-align: center;
+}
+
+
