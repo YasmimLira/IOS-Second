@@ -1,0 +1,53 @@
+body {
+    background-color: #92a571;
+}
+
+h1 {
+    text-align: center;
+}
+
+.div-lista {
+    float: left;
+    width: 30vw;
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.lista-preco {
+    background-color: #eee7e7;
+    color: #000;
+    border: solid 1px black;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.div-lista .titulo {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.div-lista .titulo.titulo-destaque {
+    background-color: green;
+}
+
+.div-lista li {
+    padding: 20px;
+    border-bottom: 20px solid silver;
+}
+
+.botao {
+    background-color: green;
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px;
+}
+
+@media(max-width:768px) {
+    .div-lista {
+    width: 100%;
+    }
+   }
+   
